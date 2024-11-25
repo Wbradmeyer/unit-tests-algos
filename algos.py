@@ -9,3 +9,6 @@ def alternate_cases(str):
         else:
             result += str[i].lower()
     return result
+
+def starts_with_a_vowel(str):
+    return True if str[0] in ['a','e','i','o','u'] else False
