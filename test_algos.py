@@ -16,6 +16,7 @@ class TestAlgos(unittest.TestCase):
     
     def test_add_alternating_indices(self):
         self.assertEqual(algos.add_alternating_indices([1,2,3,4,5,6,7,8], 1), 20)
+        self.assertEqual(algos.add_alternating_indices([1,2,3,4,5,6,7,8], 0), 16)
 
 if __name__ == 'main':
     unittest.main()
