@@ -18,3 +18,9 @@ def add_odd_indices(arr):
     for i in range(1, len(arr), 2):
         sum += arr[i]
     return sum
+
+def add_alternating_indices(arr, start):
+    sum = 0 
+    for i in range(start, len(arr), 2):
+        sum += arr[i]
+    return sum
