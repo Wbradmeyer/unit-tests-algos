@@ -13,9 +13,6 @@ class TestAlgos(unittest.TestCase):
         self.assertFalse(algos.starts_with_a_vowel('beaver'))
         self.assertTrue(algos.starts_with_a_vowel('otter'))
         self.assertTrue(algos.starts_with_a_vowel('emu'))
-
-    def test_add_odd_indices(self):
-        self.assertEqual(algos.add_odd_indices([1,2,3,4,5,6,7,8]), 20)
     
     def test_add_alternating_indices(self):
         self.assertEqual(algos.add_alternating_indices([1,2,3,4,5,6,7,8], 1), 20)
