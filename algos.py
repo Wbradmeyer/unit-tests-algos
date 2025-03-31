@@ -13,8 +13,8 @@ def alternate_cases(str):
 def starts_with_a_vowel(str):
     return True if str[0] in ['a','e','i','o','u'] else False
 
-def add_alternating_indices(arr, start):
-    sum = 0 
+def add_alternating_indices(arr, start=0):
+    sum = 0
     for i in range(start, len(arr), 2):
         sum += arr[i]
     return sum
