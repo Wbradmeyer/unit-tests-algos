@@ -25,6 +25,3 @@ def add_alternating_indices(arr, start=0):
             return False
         sum += arr[i]
     return sum
-
-print(add_alternating_indices([]))
-print(add_alternating_indices(['1','2','3','4']), 0)

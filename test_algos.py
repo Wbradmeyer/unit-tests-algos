@@ -23,6 +23,6 @@ class TestAlgos(unittest.TestCase):
         self.assertIsNone(algos.add_alternating_indices([]))
         self.assertFalse(algos.add_alternating_indices(['1','2','3','4'], 0))
 
-# if __name__ == 'main':
+
 if __name__ == '__main__':
     unittest.main()
